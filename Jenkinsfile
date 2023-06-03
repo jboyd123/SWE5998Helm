@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        KUBECONFIG = "C:\\Users\\Daniel\\.kube\\config"
+        KUBECONFIG = "C:\\Users\\Daniel\\.kube\\config" 
     }
     stages {
         stage('Deploy Helm chart') {
