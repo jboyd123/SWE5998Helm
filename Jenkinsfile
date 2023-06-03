@@ -34,7 +34,7 @@ def custom_msg1()
   def JOB_NAME = env.JOB_NAME
   def BUILD_ID= env.BUILD_ID
 
-  def JENKINS_LOG= " FAILED: Job [${env.JOB_NAME}] Logs path: http://localhost:8080/job/SWE5998/job/main/${BUILD_ID}/consoleText"
+  def JENKINS_LOG= " FAILED: Job [${env.JOB_NAME}] Logs path: http://localhost:8080/job/SWE5998Helm/job/main/${BUILD_ID}/consoleText"
   return JENKINS_LOG
 
 }
@@ -45,7 +45,7 @@ def custom_msg2()
   def JOB_NAME = env.JOB_NAME
   def BUILD_ID= env.BUILD_ID
 
-  def JENKINS_LOG= " PASSED: Job [${env.JOB_NAME}] Logs path: http://localhost:8080/job/SWE5998/job/main/${BUILD_ID}/consoleText"
+  def JENKINS_LOG= " PASSED: Job [${env.JOB_NAME}] Logs path: http://localhost:8080/job/SWE5998Helm/job/main/${BUILD_ID}/consoleText"
   return JENKINS_LOG
 
 }
