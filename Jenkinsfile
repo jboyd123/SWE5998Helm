@@ -29,6 +29,7 @@ pipeline {
     }
 }
 
+
 def custom_msg1()
 {
   def JENKINS_URL= "localhost:8080"
