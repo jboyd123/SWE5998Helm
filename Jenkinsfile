@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    triggers {
-      githubPush()
-    }
+    triggers { githubPush() }
     environment {
         KUBECONFIG = "C:\\Users\\Daniel\\.kube\\config"
     }
